@@ -1,6 +1,6 @@
 let km = prompt("Quanti chilometri desideri percorrere?");
 
-    if (parseInt(km).isNaN) {
+    if (isNaN(parseInt(km))) {
         alert("Ho bisogno di un numero... ricarica la pagina e riprova")
     }
 
@@ -10,7 +10,7 @@ let km = prompt("Quanti chilometri desideri percorrere?");
 
 let età = prompt("Quanti anni hai?")
 
-     if (parseInt(km).isNaN) {
+     if (isNaN(parseInt(km))) {
         alert("Ho bisogno di un numero... ricarica la pagina e riprova")
      }
 
